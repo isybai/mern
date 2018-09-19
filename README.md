@@ -1,0 +1,17 @@
+## Used technologies
+ - JavScript ES6 - Main programming language
+ - Node.js - Run-time environment to execute JavaScript code
+ - MongoDB - Cross-platform document-oriented database
+ - Mongoose - Library to interact with MongoDB
+ - Express - Back-end framework
+ - React - JavaScript library to build ui 
+ - Redux - JavaScript library to manage application state
+ - Twitter Bootstrap 4 - framework to design web applications
+ - Heroku - Cloud platform supporting several programming languages
+ - Git - Version control system to track changes
+ - Passport - Express-compatible authentication middleware for Node.js
+ - Passport-jwt - Passport authentication strategy using JSON Web Tokens
+ - JsonWebToken - Generate tokens
+ - BodyParser - Parse incoming request bodies in a middleware 
+ - Bcryptjs - To crypt password
+ - Validator - To validate fields
