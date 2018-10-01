@@ -9,5 +9,8 @@
     <orderEntry type="library" name="@types/react" level="application" />
     <orderEntry type="library" name="@types/express" level="application" />
     <orderEntry type="library" name="@types/node" level="application" />
+    <orderEntry type="library" name="@types/mongoose" level="application" />
+    <orderEntry type="library" name="@types/mongoose-promise" level="application" />
+    <orderEntry type="library" name="@types/passport" level="application" />
   </component>
 </module>
