@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="352e4eb9-e2f0-4215-91eb-512a3b1fad8c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/validation/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation/education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation/experience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
     </list>
@@ -17,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="profile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api/profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="200">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="education.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validation/education.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experience.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/validation/experience.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="28" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -56,7 +73,9 @@
         <option value="$PROJECT_DIR$/validation/login.js" />
         <option value="$PROJECT_DIR$/models/profile.js" />
         <option value="$PROJECT_DIR$/validation/profile.js" />
+        <option value="$PROJECT_DIR$/validation/experience.js" />
         <option value="$PROJECT_DIR$/routes/api/profile.js" />
+        <option value="$PROJECT_DIR$/validation/education.js" />
       </list>
     </option>
   </component>
@@ -215,7 +234,7 @@
       <workItem from="1538373473350" duration="1027000" />
       <workItem from="1538378176566" duration="2059000" />
       <workItem from="1538712651907" duration="599000" />
-      <workItem from="1538972323983" duration="2891000" />
+      <workItem from="1538972323983" duration="6159000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup dependencies, server, config routes, api, models">
       <created>1537350064206</created>
@@ -259,14 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538373438573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="profile validations&#10;api:&#10;get all profiles&#10;get user by id">
+      <created>1538976808108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538976808108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32709000" />
+    <option name="totallyTimeSpent" value="35977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -279,7 +305,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.062642366" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.062642366" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info id="Designer" order="2" />
@@ -312,7 +338,8 @@
     <MESSAGE value="Validations:&#10;registration &#10;login&#10;isEmpty&#10;&#10;models:&#10;profile" />
     <MESSAGE value="Profile:&#10;Get&#10;Update&#10;Create" />
     <MESSAGE value="code refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="code refactoring" />
+    <MESSAGE value="profile validations&#10;api:&#10;get all profiles&#10;get user by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile validations&#10;api:&#10;get all profiles&#10;get user by id" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/api/profile.js">
@@ -542,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="35" lean-forward="true" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/validation/profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -570,10 +590,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="612" column="2" selection-start-line="612" selection-start-column="2" selection-end-line="612" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="38" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api/profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="200">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation/experience.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation/education.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
